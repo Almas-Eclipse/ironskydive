@@ -3,69 +3,151 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>IronSkyDive</title>
-    <!-- Import Fonts -->
+  <title>IronSkyDive</title>
+
+  <!-- Import Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
   <!-- Link to CSS -->
   <link rel="stylesheet" href="style.css">
-  <title>My Portfolio</title>
 </head>
-  <body>
-    <nav class= "nav-bar">
-  <ul class="nav-bar-ul">
-    <li><a href="#structure">Day Structure</a></li>
-    <li><a href="#Team">Team</a></li>
-    <li><a href="#Schedule">Schedule</a></li>
-  </ul>
-</nav>
-      <header class= "header">
-        <aside>
-  <h1>IronSkyDive</h1>
-</aside>
-        <img src= https://1drv.ms/i/c/78c0d65c1af1738d/ERGRVowxveFBsFiMUbu4U3oB9QqRqPgWycq4nkre0uIM_Q?e=MX7xgd/>
-        <h2>Let the Trip Begin</h2>
-      <aside class="quote">
-  <p><em>"The best experience of our lifes"</em></p>
-</aside>
-    <!-- Section 1: General Information -->
-  <section id="general-information" class="dark-background">
-    <p class="text">Welcome to IronSkydive, the best adventure you will ever have.</p>
-    <p class="text">It’s a once-in-a-lifetime experience — and you’re invited.</p>
-    <p class="text">Sign up today to reserve your spot!</p>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <ul class="nav-bar-ul">
+      <li><a href="#structure">Day Structure</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <aside>
+      <h1>IronSkyDive</h1>
+    </aside>
+
+    <h2>Let the Trip Begin</h2>
+
+    <aside class="quote">
+      <p><em>"The best experience of our lives"</em></p>
+    </aside>
+  </header>
+
+  <!-- Section 1: General Information -->
+ <section id="general-information" class="dark-background">
+  <p class="text">Welcome to IronSkydive, the best adventure you will ever have.</p>
+  <p class="text">It’s a once-in-a-lifetime experience — and you’re invited.</p>
+  <p class="text">Sign up today to reserve your spot!</p>
+
+  <!-- Button container -->
+  <div class="button-container">
     <a href="#Book" class="link-btn">Book Now</a>
     <a href="#Learn" class="link-btn">Learn More</a>
     <a href="#Contact" class="link-btn">Contact</a>
-  </section>
+  </div>
+</section>
+
 
   <!-- Section 2: Structure -->
- <section id="structure" class="container">
-  <article class="service-box">
-    <img src="https://via.placeholder.com/125" alt="Service 1">
-    <p>Pre-jump Training</p>
-  </article>
-  <article class="service-box">
-    <img src="https://via.placeholder.com/125" alt="Service 2">
-    <p>Expert Guides</p>
-  </article>
-  <article class="service-box">
-    <img src="https://via.placeholder.com/125" alt="Service 3">
-    <p>Safety Equipment</p>
-  </article>
-</section>
+  <section id="structure" class="container">
+    <article class="service-box">
+      <img src="images/foto_galeria_2.jpg" alt="Skydiving experience">
+      <p>Pre-jump Training</p>
+    </article>
+    <article class="service-box">
+     <img src="images/skydivetraining2.jpg" alt="Skydiver training image">
+      <p>Expert Guides</p>
+    </article>
+    <article class="service-box">
+      <img src="images/skydiveimage3.webp" alt="Service 3">
+      <p>Safety Equipment</p>
+    </article>
+  </section>
 
   <!-- Section 3: Team -->
   <section id="team" class="dark-background">
-    <p class="section-text">Meet our professional jump team</p>
-    <h4 class="member-name">Alex Skywalker</h4>
-    <img src="https://via.placeholder.com/250x180" alt="Alex Skywalker">
-    <h4 class="member-name">Luna Divehart</h4>
-    <img src="https://via.placeholder.com/250x180" alt="Luna Divehart">
-    <h4 class="member-name">Maverick Windrider</h4>
-    <img src="https://via.placeholder.com/250x180" alt="Maverick Windrider">
-  </section>
+  <p class="section-text">Meet our professional jump team</p>
+
+  <div class="team-container">
+    <article class="member">
+      <img src="images/skydivetraining2.jpg" alt="Alex Skywalker">
+      <h4 class="member-name">Alex Skywalker</h4>
+    </article>
+
+    <article class="member">
+      <img src="images/skydiveimage3.webp" alt="Luna Divehart">
+      <h4 class="member-name">Luna Divehart</h4>
+    </article>
+
+    <article class="member">
+      <img src="images/foto_galeria_2.jpg" alt="Maverick Windrider">
+      <h4 class="member-name">Maverick Windrider</h4>
+    </article>
+  </div>
+</section>
+
+<!-- Schedule -->
+<section id="schedule" class="container">
+  <h3>Schedule</h3>
+  <table class="schedule-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>9:00 - 11:00</td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <td>12:00 - 14:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <td>15:00 - 17:00</td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+
+  <!-- Google Maps iframe -->
+  <div class="contact-section">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099"
+    class="map-frame"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
 
   <!-- Footer -->
-  <footer class="dark-background footer">
+  <footer class="footer">
     <p>Follow us on social media</p>
     <ul>
       <li><a href="#">Instagram</a></li>
@@ -76,6 +158,7 @@
       123 Skydive Way, Fly City, Earth
     </address>
   </footer>
+  </div>
 
 </body>
 </html>

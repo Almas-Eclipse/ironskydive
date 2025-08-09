@@ -108,6 +108,20 @@ p, em {
   left: 10%;
   bottom: 100px;
 }
+/* General Info */
+
+#general-information .text {
+  font-size: 2em;
+  margin: 10px 0;
+}
+#general-information {
+  width: 100%;
+  max-width: 1200px;    
+  margin: 0 auto;        
+  padding: 75px 0;
+  text-align: center;     
+}
+
 
 /* Buttons */
 .link-btn {
@@ -126,8 +140,6 @@ p, em {
 
 /* Service boxes */
 .service-box {
-  font-size: 1.7em;
-  text-align: center;
   border: 2px solid #eee;
   border-radius: 20px;
   box-sizing: border-box;
@@ -135,10 +147,18 @@ p, em {
   margin: 50px 5% 0 5%;
   padding: 20px;
   width: 40%;
+  font-size: 1.7em;
+  text-align: center;
 }
 
 .service-box img {
   width: 125px;
+}
+
+#structure {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Team section */
@@ -153,40 +173,19 @@ p, em {
 }
 
 
-.footer {
-  text-align: center;
-  font-size: 1.9em;
-  padding: 40px 100px;
-  margin-bottom: 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.address {
-  font-style: normal;
-  font-size: 0.8em;
-  margin-bottom: 30px;
-}
-
-.footer a {
-  color: rgb(67, 163, 230);
-  text-decoration: none;
-}
-
-.footer ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1em;
-}
-
 /* Container */
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 75px 0;
 }
+.button-container {
+  display: flex;
+  justify-content: center;  
+  flex-wrap: wrap;          
+  gap: 2em;         
+}
+
 
 /* Team Section */
 #team {
@@ -203,9 +202,99 @@ p, em {
   margin: 20px auto 30px auto;
   width: 40%;
 }
+/* Container for all team members */
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+/* Each member card */
+.member {
+  text-align: center;
+  width: 250px;
+}
+
+/* Images */
+.member img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.schedule-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid #333;
+  padding: 10px;
+}
+
+.schedule-table th {
+  font-weight: bold;
+}
+
+#schedule h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px; /* space btwn map nd footer*/
+  padding: 40px;
+  background-color: #b3e5fc;
+}
+.footer {
+  text-align: center;
+  max-width: 300px;
+  color: black;
+}
+
+.address {
+  font-style: normal;
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+.footer p {
+  font-weight: bold;
+  font-size: 3em;
+  margin: 0 0 20px 0;
+}
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 2em;
+}
+.footer ul li {
+  margin: 5px 0;
+}
 
 
+
+/* Map frame */
 .map-frame {
-  height: 375px;
-  width: 60%;
+  height: 400px;
+  width: 600px;
+  border: 0;
 }
